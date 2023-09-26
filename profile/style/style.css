@@ -377,7 +377,7 @@ iframe {
     .itemServico7,
     .itemServico8 {
         width: 75%;
-       margin-left: auto;
+        margin-left: auto;
         margin-right: auto;
     }
 
@@ -389,12 +389,122 @@ iframe {
         flex-direction: column;
     }
 
-    textarea {
-        width: 200px;
+    form {
+        max-width: 100%;
     }
 
     .mapa {
         margin-left: 0px;
         margin-top: 50px;
+        width: 80%;
+    }
+
+    textarea,
+    input {
+        width: 100%;
+    }
+
+    .dados {
+        width: 80%;
+    }
+
+    .mensagem {
+        width: 80%;
+        margin-left: 0px;
+    }
+
+    .mapa iframe {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+    .apresentacao {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .left img {
+        margin-bottom: 14px;
+    }
+
+    .right {
+        text-align: center;
+    }
+
+
+    .containerSobreMim {
+        flex-direction: column;
+    }
+
+    .containerSobreMim .left {
+        width: 75%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .containerSobreMim .right {
+        width: 75%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .containerServicos {
+        flex-direction: column;
+    }
+
+    .containerServicos h2 {
+        font-size: 16px;
+    }
+
+    .itemServico1,
+    .itemServico2,
+    .itemServico3,
+    .itemServico4,
+    .itemServico5,
+    .itemServico6,
+    .itemServico7,
+    .itemServico8 {
+        width: 75%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #servicos h3 {
+        font-size: 15px;
+    }
+
+    .displayContato {
+        flex-direction: column;
+    }
+
+    form {
+        max-width: 100%;
+    }
+
+    .mapa {
+        margin-left: 0px;
+        margin-top: 50px;
+        width: 80%;
+    }
+
+    textarea,
+    input {
+        width: 100%;
+    }
+
+    .dados {
+        width: 80%;
+    }
+
+    .mensagem {
+        width: 80%;
+        margin-left: 0px;
+    }
+
+    .mapa iframe {
+        width: 100%;
+        height: auto;
     }
 }
